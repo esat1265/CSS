@@ -1,0 +1,42 @@
+#kirmizi {
+    background-color: rgba(255, 0, 0, 0.356);
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 20px;
+    text-align: center;
+  }
+  #yesil {
+    background-color: rgba(0, 255, 64, 0.356);
+    width: 300px;
+    height: 150px;
+    border: 1px solid green;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #sari {
+    background-color: rgba(200, 255, 0, 0.356);
+    width: 160px;
+    height: 160px;
+    padding: 40px;
+    border-radius: 200px;
+    border: 1px solid yellow;
+    margin: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  #mavi {
+    background-color: rgb(116, 116, 231);
+    width: 160px;
+    height: 160px;
+    padding: 40px;
+    border-radius: 200px;
+    border: 1px solid blue;
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
