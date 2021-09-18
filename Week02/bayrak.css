@@ -1,10 +1,11 @@
+/* Genel kirmizi cerceve */
 #en-dis {
     background-color: red;
     width: 400px;
     height: 400px;
     margin: 100px auto;
 }
-
+/* ic beyaz kisim */
 #beyaz {
     background-color: white;
     width: 300px;
@@ -13,7 +14,7 @@
     position: relative;
     top: 55px
 }
-
+/* kenarlardaki kucuk kareler*/
 .kare{
     background-color: red;
     width: 110px;
