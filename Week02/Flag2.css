@@ -1,0 +1,26 @@
+section{
+    width: 320px;
+    height: 320px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    box-shadow: 30px 30px 10px rgb(207, 93, 93);
+}
+.div1{
+    width: 60px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    left: 130px;
+}
+.div2{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 60px;
+
+}
