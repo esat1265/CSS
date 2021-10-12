@@ -1,0 +1,49 @@
+
+/*first shape*/
+
+#main-container{
+    display: flex;
+    margin: 50px;
+}
+
+#l1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.l1-in{
+    display: flex;  
+}
+
+
+/*Second shape*/
+
+#l2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.l2-in{
+    display: flex;  
+}
+
+/*Third shape*/
+
+#l3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#center-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
