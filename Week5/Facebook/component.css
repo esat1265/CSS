@@ -1,0 +1,36 @@
+main{
+    margin: 2rem 4rem;
+}
+
+#login{
+    height: 70vh;
+}
+
+#facebook-label{
+    width: 30em;
+    height: 20em;
+    margin: 10px;
+}
+#form-section {
+    width: 20em;
+    height: 20em;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+input, button{
+    height: 2em;
+    margin: 10px 4px;
+}
+p{
+    text-align: center;
+    margin: 5px;
+}
+footer a{
+    padding-left: 20px;
+    opacity: 0.6;
+    text-decoration: none;
+}
+footer p{
+    padding-left: 20px;
+    opacity: 0.6;
+}

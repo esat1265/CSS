@@ -1,0 +1,17 @@
+#main-container{
+    background-color: rgb(240, 244, 245);
+}
+
+form, footer{
+    background-color:white;
+}
+
+#facebook-label{
+    background-color: violet;
+}
+#form-section{
+    background-color: turquoise;
+}
+footer,footer a{
+    color: rgb(136, 139, 139);
+}
