@@ -1,0 +1,126 @@
+/*general setting*/
+
+*{
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*layout*/
+#main-container{
+    width: 90vw;
+    height: 90vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+   
+    background-color: rgb(52, 178, 209);
+}
+header{
+    width:100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ #header-first-box{
+     width: 30%;
+     height: 90%;
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+ }
+
+ #header-second-box{
+    width: 55%;
+    height: 90%;
+    margin: 10px;
+
+    background-color: white;
+}
+#header-third-box{
+    width: 15%;
+    height: 90%;
+    margin: 10px;
+
+    background-color: white;
+ }
+
+ #main-content{
+    width:100%;
+    height: 60%;
+    display: flex;
+    margin-top: 10px;
+
+ }
+ #telephone{
+    width:15%;
+    height: 90%;
+    margin: 10px;
+
+    background-color: white;
+ }
+
+ #big-picture{
+    width:50%;
+    height: 90%;
+    margin: 10px;
+
+    background-color: white;
+ }
+ #small-picture{
+    width:30%;
+    height: 90%;
+    margin: 10px;
+
+    background-color: white;
+ }
+ footer{
+    width:98%;
+    height: 10%;
+    margin: 10px;
+
+    background-color: white;
+ }
+/*color*/
+
+
+
+
+/*typography*/
+
+
+
+
+/*component*/
+#header-first-box div:first-child{
+    width: 80%;
+    height: 13%;
+    margin-bottom: 10px;
+
+    background-color: rgb(52, 178, 209);
+}
+
+#header-first-box div:nth-child(2){
+    width: 80%;
+    height: 10%;
+    margin-bottom: 10px;
+
+    background-color: rgb(52, 178, 209);
+}
+
+#header-first-box div:last-child{
+    width: 20%;
+    height: 20%;
+    margin-top: 10px;
+
+    background-color:rgb(52, 178, 209);
+}
+.fas{
+    margin:50px 300px;
+    color: rgb(52, 178, 209);
+}
