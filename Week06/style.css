@@ -130,3 +130,30 @@ header{
     margin-top: 15px;
     background-color: rgb(52, 178, 209);
 }
+
+#telephone{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#telephone div:first-child{
+    width: 50%;
+    height: 1%;
+    margin-bottom: 10px;
+    background-color:rgb(52, 178, 209) ;
+}
+#telephone div:nth-child(2){
+    width: 90%;
+    height: 75%;
+    margin-bottom: 5px;
+    background-color:rgb(52, 178, 209) ;
+}
+#telephone div:last-child{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border:2px solid rgb(52, 178, 209);
+    
+}
