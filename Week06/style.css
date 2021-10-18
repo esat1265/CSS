@@ -107,7 +107,7 @@ header{
 
 #header-first-box div:nth-child(2){
     width: 80%;
-    height: 10%;
+    height: 8%;
     margin-bottom: 10px;
 
     background-color: rgb(52, 178, 209);
@@ -154,6 +154,34 @@ header{
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    border:2px solid rgb(52, 178, 209);
-    
+    border:2px solid rgb(52, 178, 209); 
+}
+
+#big-picture div:first-child{
+    width: 0px;
+    border-radius: 100px;
+    border: 20px solid rgb(52, 178, 209);
+    position: relative;
+    top: 130px;
+    left: 220px;
+ }
+#big-picture div:nth-child(2){
+    width: 0px;
+    border: 40px solid;
+    border-color:transparent transparent rgb(52, 178, 209) ;
+    position: relative;
+    top: 120px;
+    left: 220px;
+}
+#big-picture div:nth-child(3){
+    width: 0px;
+    border: 60px solid;
+    border-color:transparent transparent rgb(52, 178, 209) ;
+    position: relative;
+    left: 270px;
+}
+#big-picture div:last-child{
+   font-size: 60px;
+   color: rgb(52, 178, 209);
+   text-align: center;
 }
