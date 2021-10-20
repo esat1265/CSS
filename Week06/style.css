@@ -81,12 +81,10 @@ header{
 
     background-color: white;
  }
- footer{
+ #links{
     width:98%;
     height: 10%;
     margin: 10px;
-
-    background-color: white;
  }
 /*color*/
 
@@ -231,7 +229,7 @@ header{
     left: 65px;
 }
 
-#ff{
+#double-line{
     width: 175px;
     height: 45px;
     position: relative;
@@ -240,9 +238,60 @@ header{
     background-color: white;
 }
 
-#ff article{
+#double-line article{
     width: 100%;
     height: 35%;
     margin-top: 15px;
     background-color: rgb(52, 178, 209);
+}
+
+#small-picture-content div:first-child{
+    width: 0px;
+    border-radius: 100px;
+    border: 20px solid rgb(52, 178, 209);
+    position: relative;
+    top: 80px;
+    left: 120px;
+ }
+#small-picture-content div:nth-child(2){
+    width: 0px;
+    border: 40px solid;
+    border-color:transparent transparent rgb(52, 178, 209) ;
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+#small-picture-content div:nth-child(3){
+    width: 0px;
+    border: 60px solid;
+    border-color:transparent transparent rgb(52, 178, 209) ;
+    position: relative;
+    left: 170px;
+    bottom: 40px;
+    }
+
+#links{
+    display: flex;
+    justify-content: space-between;
+}
+#links div:first-child{
+    width: 68%;
+    height: 80%;
+    background-color: white;
+}
+
+#links section{
+    width: 80%;
+    height: 85%;
+    margin: 3px;
+    background-color: rgb(52, 178, 209);
+}
+#links div{
+    width: 4%;
+    height: 80%;
+    background-color: rgb(52, 178, 209);
+}
+.fab{
+    color: white;
+    background-color:rgb(52, 178, 209) ;
 }
