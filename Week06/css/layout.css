@@ -1,0 +1,47 @@
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; 
+}
+
+ #header-first-box{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ #telephone{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ #big-picture{
+    width:50%;
+    height: 90%;
+    margin: 10px;
+    background-color: white;
+ }
+
+ #small-picture{
+    width:30%;
+    height: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+ }
+
+ #links{
+    display: flex;
+    justify-content: space-between;
+}

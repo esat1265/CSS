@@ -1,0 +1,69 @@
+#main-container{
+    background-color: rgb(52, 178, 209);
+}
+
+#header-first-box div{
+    background-color: rgb(52, 178, 209);
+}
+
+.header-box{
+    background-color: white;
+}
+
+.fas{
+    color: rgb(52, 178, 209);
+ }
+
+ #header-third-box div:nth-child(odd){
+    background-color: rgb(52, 178, 209);
+}
+
+#telephone{
+    background-color: white;
+ }
+
+#telephone div{
+    background-color:rgb(52, 178, 209) ;
+}
+
+#telephone div:last-child{
+    border-color:  rgb(52, 178, 209); 
+    background-color: white;
+}
+
+#small-picture-header div:nth-child(2){
+    border-color: white;
+    background-color: white;  
+}
+
+#small-picture-header div:nth-child(3){
+    border-color: white;
+    background-color:rgb(52, 178, 209) ;
+
+}
+
+#small-picture-header div:nth-child(4){
+    border-color:white;
+    background-color: white;
+}
+
+#double-line{
+    background-color: white;
+}
+
+#double-line article{
+    background-color: rgb(52, 178, 209);
+}
+
+#links div:first-child{
+    background-color: white;
+}
+
+#links section{
+    background-color: rgb(52, 178, 209);
+}
+
+.fab{
+    color: white;
+    background-color:rgb(52, 178, 209) ;
+}

@@ -1,53 +1,24 @@
-/*general setting*/
-
-*{
-    box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-/*layout*/
 #main-container{
     width: 90vw;
     height: 90vh;
     margin: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-   
-    background-color: rgb(52, 178, 209);
 }
+
 header{
     width:100%;
     height: 25%;
-    display: flex;
-    justify-content: space-between;
-    
 }
- #header-first-box{
-     width: 30%;
-     height: 90%;
-     margin: 10px;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     background-color: white;
- }
 
- #header-second-box{
+#header-second-box{
     width: 55%;
     height: 90%;
-    margin: 10px;
-
-    background-color: white;
+    margin: 10px; 
 }
+
 #header-third-box{
     width: 15%;
     height: 90%;
     margin: 10px;
-
-    background-color: white;
  }
 
  #main-content{
@@ -55,107 +26,67 @@ header{
     height: 60%;
     display: flex;
     margin-top: 10px;
-
  }
- #telephone{
-    width:15%;
+
+#header-first-box{
+    width: 30%;
     height: 90%;
     margin: 10px;
+}
 
-    background-color: white;
- }
-
- #big-picture{
-    width:50%;
-    height: 90%;
-    margin: 10px;
-
-    background-color: white;
- }
- #small-picture{
-    width:30%;
-    height: 90%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-
-    background-color: white;
- }
- #links{
-    width:98%;
-    height: 10%;
-    margin: 10px;
- }
-/*color*/
-
-
-
-
-/*typography*/
-
-
-
-
-/*component*/
 #header-first-box div:first-child{
     width: 80%;
     height: 13%;
     margin-bottom: 10px;
-
-    background-color: rgb(52, 178, 209);
 }
 
 #header-first-box div:nth-child(2){
     width: 80%;
     height: 8%;
     margin-bottom: 10px;
-
-    background-color: rgb(52, 178, 209);
 }
 
 #header-first-box div:last-child{
     width: 20%;
     height: 20%;
-    margin-top: 10px;
-
-    background-color:rgb(52, 178, 209);
+    margin-top: 10px; 
 }
+
 .fas{
     margin:50px 300px;
-    color: rgb(52, 178, 209);
 }
+
 #header-third-box div:nth-child(odd){
     width: 100%;
     height: 11%;
     margin-top: 15px;
-    background-color: rgb(52, 178, 209);
 }
 
 #telephone{
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    width:15%;
+    height: 90%;
+    margin: 10px;
+    background-color: white;
+ }
+
 #telephone div:first-child{
     width: 50%;
     height: 1%;
     margin-bottom: 10px;
-    background-color:rgb(52, 178, 209) ;
 }
+
 #telephone div:nth-child(2){
     width: 90%;
     height: 75%;
     margin-bottom: 5px;
-    background-color:rgb(52, 178, 209) ;
 }
+
 #telephone div:last-child{
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    border:2px solid rgb(52, 178, 209); 
-}
+    border:2px solid; 
+ }
 
 #big-picture div:first-child{
     width: 0px;
@@ -165,6 +96,7 @@ header{
     top: 130px;
     left: 220px;
  }
+
 #big-picture div:nth-child(2){
     width: 0px;
     border: 40px solid;
@@ -173,6 +105,7 @@ header{
     top: 120px;
     left: 220px;
 }
+
 #big-picture div:nth-child(3){
     width: 0px;
     border: 60px solid;
@@ -180,6 +113,7 @@ header{
     position: relative;
     left: 270px;
 }
+
 #big-picture div:last-child{
    font-size: 60px;
    color: rgb(52, 178, 209);
@@ -192,6 +126,7 @@ header{
     display: flex;
     background-color:rgb(52, 178, 209);
 }
+
 #small-picture-header div:first-child{
     width: 30px;
     height: 30px;
@@ -200,20 +135,20 @@ header{
     position:absolute;
     z-index: 1;
 }
+
 #small-picture-header div:nth-child(2){
     width:70px;
     height: 30px;
     border-radius: 100px;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid;
     position:absolute;
 }
+
 #small-picture-header div:nth-child(3){
     width: 30px;
     height: 30px;
     border-radius: 100px;
-    background-color:rgb(52, 178, 209) ;
-    border: 2px solid white;
+    border: 2px solid;
     position:relative;
     left: 138px;
     z-index: 1; 
@@ -223,8 +158,7 @@ header{
     width:70px;
     height: 30px;
     border-radius: 100px;
-    border: 2px solid white;
-    background-color: white;
+    border: 2px solid;
     position: relative;
     left: 65px;
 }
@@ -235,14 +169,12 @@ header{
     position: relative;
     right: -87px;
     top: -10px;
-    background-color: white;
 }
 
 #double-line article{
     width: 100%;
     height: 35%;
     margin-top: 15px;
-    background-color: rgb(52, 178, 209);
 }
 
 #small-picture-content div:first-child{
@@ -270,28 +202,24 @@ header{
     bottom: 40px;
     }
 
+
 #links{
-    display: flex;
-    justify-content: space-between;
-}
+    width:98%;
+    height: 10%;
+    margin: 10px;
+ }
 #links div:first-child{
     width: 68%;
     height: 80%;
-    background-color: white;
 }
 
 #links section{
     width: 80%;
     height: 85%;
     margin: 3px;
-    background-color: rgb(52, 178, 209);
 }
+
 #links div{
     width: 4%;
     height: 80%;
-    background-color: rgb(52, 178, 209);
-}
-.fab{
-    color: white;
-    background-color:rgb(52, 178, 209) ;
 }
